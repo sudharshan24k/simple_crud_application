@@ -1,0 +1,13 @@
+{
+  "name": "fullstack-crud-app",
+  "version": "1.0.0",
+  "description": "Full Stack CRUD Application",
+  "scripts": {
+    "start": "cd backend && node server.js",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+} 
